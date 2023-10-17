@@ -29,6 +29,8 @@ color = Color(0.2204, 0.37202, 0.38, 1)
 curve = SubResource("Curve2D_u6i38")
 
 [node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath"]
+rotation = -1.5708
+progress = 2400.0
 
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5
